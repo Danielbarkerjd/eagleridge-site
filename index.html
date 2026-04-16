@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eagle Ridge Tech</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #f9f9f7;
+    color: #1a1a1a;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  header {
+    padding: 3.5rem 1.5rem 2rem;
+    text-align: center;
+  }
+
+  .logo {
+    font-size: 1.05rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #2c6e49;
+  }
+
+  .tagline {
+    margin-top: 0.6rem;
+    font-size: 1.55rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1.3;
+  }
+
+  .sub {
+    margin-top: 0.6rem;
+    font-size: 1rem;
+    color: #666;
+    max-width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+  }
+
+  main {
+    flex: 1;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 1rem 1.5rem 3rem;
+    width: 100%;
+  }
+
+  .section-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 1rem;
+  }
+
+  .app-card {
+    background: #fff;
+    border-radius: 16px;
+    border: 1px solid #e5e5e0;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .app-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .app-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 13px;
+    background: linear-gradient(135deg, #2c6e49 0%, #52b788 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    flex-shrink: 0;
+  }
+
+  .app-name {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #1a1a1a;
+  }
+
+  .app-platform {
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 0.15rem;
+  }
+
+  .app-desc {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+
+  .app-links {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .app-links a {
+    font-size: 0.85rem;
+    color: #2c6e49;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .app-links a:hover {
+    text-decoration: underline;
+  }
+
+  .divider {
+    color: #ccc;
+  }
+
+  .support {
+    background: #fff;
+    border-radius: 16px;
+    border: 1px solid #e5e5e0;
+    padding: 1.25rem 1.5rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .support-text {
+    font-size: 0.95rem;
+    color: #555;
+  }
+
+  .support a {
+    color: #2c6e49;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .support a:hover {
+    text-decoration: underline;
+  }
+
+  footer {
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 0.8rem;
+    color: #bbb;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Eagle Ridge Tech</div>
+  <div class="tagline">Simple apps for everyday life.</div>
+  <p class="sub">We build focused, well-crafted mobile apps for iOS and Android.</p>
+</header>
+
+<main>
+  <div class="section-label">Our Apps</div>
+
+  <div class="app-card">
+    <div class="app-header">
+      <div class="app-icon">🔨</div>
+      <div>
+        <div class="app-name">Nail It</div>
+        <div class="app-platform">iOS · Android</div>
+      </div>
+    </div>
+    <p class="app-desc">Plan your home improvement projects from start to finish — AI-generated previews, step-by-step build plans, task tracking, budget management, and photo timelines.</p>
+    <div class="app-links">
+      <a href="/nailit-privacy.html">Privacy Policy</a>
+      <span class="divider">·</span>
+      <a href="/nailit-terms.html">Terms of Use</a>
+    </div>
+  </div>
+
+  <div class="support">
+    <div class="support-text">Questions or need help with one of our apps?</div>
+    <a href="mailto:support@eagleridge.tech">support@eagleridge.tech</a>
+  </div>
+</main>
+
+<footer>
+  &copy; 2026 Eagle Ridge Tech LLC
+</footer>
+
+</body>
+</html>
