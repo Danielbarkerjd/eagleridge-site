@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "contentVersion": 1,
+  "curriculum": {
+    "path": "ot-2026.json",
+    "sha256": "bcc60941de9943aff0681c46ea78e97fc27f7662dca9580f7e7bdee98d3baf34",
+    "bytes": 38358
+  },
+  "assets": [],
+  "publishedAt": "2026-10-29T01:14:56.436Z"
+}
