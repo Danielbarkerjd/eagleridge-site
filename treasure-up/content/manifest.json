@@ -1,11 +1,47 @@
 {
   "schema": 1,
-  "contentVersion": 1,
+  "contentVersion": 2,
   "curriculum": {
     "path": "ot-2026.json",
-    "sha256": "bcc60941de9943aff0681c46ea78e97fc27f7662dca9580f7e7bdee98d3baf34",
-    "bytes": 38358
+    "sha256": "08f9809e76fcbc1d1a9b3d6ca52d48579895d92014b5b7689ad437598cdd1824",
+    "bytes": 178692
   },
-  "assets": [],
-  "publishedAt": "2026-10-29T01:14:56.436Z"
+  "assets": [
+    {
+      "path": "assets/coloring/ot-2026-week-46.png",
+      "sha256": "6dd42b2a7f95216991b0e1fcaf4880a619fa20fb3a1b0aba76ed0f4eadd62933",
+      "bytes": 142612
+    },
+    {
+      "path": "assets/coloring/ot-2026-week-47.png",
+      "sha256": "9187ece175dfe49f9d2f180b7dc28b0378298f6de3eb0ebebf73f2c951e54a5e",
+      "bytes": 136899
+    },
+    {
+      "path": "assets/coloring/ot-2026-week-48.png",
+      "sha256": "267c2c2170fd03108f72f94b79f97926b341b4cf0c147625654161f6dd672448",
+      "bytes": 138624
+    },
+    {
+      "path": "assets/coloring/ot-2026-week-49.png",
+      "sha256": "cab916551ed14180b280152199175241b532e350c690249f0cf72fc39c8c0995",
+      "bytes": 144570
+    },
+    {
+      "path": "assets/coloring/ot-2026-week-50.png",
+      "sha256": "baf92ecf78e00d08910c02064fb8eec076446f0640354778e83acf6330179aa5",
+      "bytes": 164646
+    },
+    {
+      "path": "assets/coloring/ot-2026-week-51.png",
+      "sha256": "2763a5a925f9f311ae4742dc803cd8f7b3987d6775e64607bab26826484fc86e",
+      "bytes": 171779
+    },
+    {
+      "path": "assets/coloring/ot-2026-week-52.png",
+      "sha256": "459816792b06169d66baaca9337d004e406204cb798c430d9a2c59d6ed92beba",
+      "bytes": 82290
+    }
+  ],
+  "publishedAt": "2026-11-11T22:34:05.346Z"
 }
